@@ -1,0 +1,37 @@
+/* Google font family:  */
+/* font-family: 'Miss Fajardose', cursive;
+font-family: 'Staatliches', cursive; */
+
+
+
+body {
+    font-family: 'Staatliches', cursive;
+    background-image: url(../images/artDecoStation.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.jumbotron{
+    background-color: rgba(226, 192, 150, 0.644);
+    padding-bottom: 0px;
+    padding-top: 32px;
+}
+
+#railwayName{
+    font-family: 'Miss Fajardose', cursive;
+    font-size: 100px;
+}
+
+#currentTime{
+    margin-top: 20px;
+}
+
+.panel-heading {
+    background-color: rgba(226, 192, 150, 0.644);
+    padding: 5px;
+    border: solid white 2px;
+}
+
+.btn-default{
+    border: solid white 1px;
+}
