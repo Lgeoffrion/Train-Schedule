@@ -38,18 +38,18 @@ currentTime();
 $("#submit").on("click", function (event) {
     event.preventDefault();
 
-    if ($("#train-name").val().trim() === "" ||
+    if ($("#trainName").val().trim() === "" ||
         $("#destination").val().trim() === "" ||
-        $("#first-train").val().trim() === "" ||
+        $("#firstTrain").val().trim() === "" ||
         $("#frequency").val().trim() === "") {
 
         alert("Please fill in all details to add new train");
 
     } else {
 
-        trainName = $("#train-name").val().trim();
+        trainName = $("#trainName").val().trim();
         destination = $("#destination").val().trim();
-        startTime = $("#first-train").val().trim();
+        startTime = $("#firstTrain").val().trim();
         frequency = $("#frequency").val().trim();
 
         $(".form-field").val("");

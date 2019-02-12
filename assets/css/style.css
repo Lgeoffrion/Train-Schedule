@@ -15,6 +15,8 @@ body {
     background-color: rgba(226, 192, 150, 0.644);
     padding-bottom: 0px;
     padding-top: 32px;
+    border: solid white 2px;
+    margin-top: 5px;
 }
 
 #railwayName{
